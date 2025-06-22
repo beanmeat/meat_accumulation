@@ -1,15 +1,13 @@
-package pay;
+package com.beanmeat;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.scheduling.annotation.EnableScheduling;
-
 
 @SpringBootApplication
-public class PayApplication {
+public class BeanmeatCosApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(PayApplication.class, args);
+        SpringApplication.run(BeanmeatCosApplication.class, args);
     }
 
 }
